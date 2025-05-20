@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terminal Timer ⏱️</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="terminal">
+    <h1>== TERMINAL TIMER ==</h1>
+
+    <div class="timer-input">
+      <label>Minutos: <input type="number" id="minutes" min="0" value="0" /></label>
+      <label>Segundos: <input type="number" id="seconds" min="0" value="30" /></label>
+    </div>
+
+    <button id="startBtn">▶️ Iniciar</button>
+    <button id="resetBtn">🔄 Reiniciar</button>
+
+    <div class="display" id="display">00:30</div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
