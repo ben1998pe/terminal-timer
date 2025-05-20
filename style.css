@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Share Tech Mono', monospace;
+  color: #00ff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.terminal {
+  text-align: center;
+  border: 2px solid #00ff00;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00ff00;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+.timer-input {
+  margin-bottom: 1rem;
+}
+
+.timer-input label {
+  margin: 0 0.5rem;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 0.3rem;
+  border: none;
+  font-size: 1rem;
+  background-color: #000;
+  color: #00ff00;
+  border-bottom: 1px solid #00ff00;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #00ff00;
+  color: #000;
+}
+
+.display {
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px #00ff00;
+}
